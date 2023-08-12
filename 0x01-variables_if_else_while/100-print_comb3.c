@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry function
+ * main - prints all possible different combinations of two digits
  *
- * Return: Successful only when is 0
+ * Return: 0 (Success)
  */
 
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	int ones = '0';
 	int tens = '0';
 
-	for (tens = '0'; tens <= '9'; ones++)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
 		for (ones = '0'; ones <= '9'; ones++)
 		{
