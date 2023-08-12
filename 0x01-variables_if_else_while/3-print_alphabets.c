@@ -3,26 +3,26 @@
 /**
  * main - Entry point
  *
- * Return: Successful only when 0
+ * Return: successful only when 0
  */
 
 int main(void)
 {
 	char c;
-	
-	char w;
+
+	char e;
 
 	c = 'a';
-	w = 'A';
+	e = 'A';
 	while
 		(c <= 'z') {
 			putchar(c);
 			c++;
 		}
 	while
-		(w <= 'z') {
-			putchar (w);
-			w++;
+		(e <= 'z') {
+			putchar (e);
+			e++;
 		}
 	putchar('\n');
 	return (0);
