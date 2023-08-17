@@ -1,1 +1,1 @@
- read me for 0x03-debugging
+read me for 0x03-debugging
