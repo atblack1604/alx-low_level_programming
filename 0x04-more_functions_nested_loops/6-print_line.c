@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_line -prints straight line on the terminal
+ * print_line - prints straight line on the terminal
  * @n: numtber of times the character '_' will be printed
  * Return: void
  */
 
-void print_line(int n);
+void print_line(int n)
 {
 	if (n <= 0)
 		_putchar('\n');
